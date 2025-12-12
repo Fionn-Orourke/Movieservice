@@ -15,7 +15,6 @@ public class RecommendationController {
     @GetMapping("/recommendation")
     public String recommend() {
         Movie movie = movieClient.getRandomMovie();
-        return "Today's movie recommendation: " + movie.getTitle() +
-                " directed by " + movie.getDirector();
+        return "Today's movie recomendation: " + movie.getTitle() +" directed by " + movie.getDirector();
     }
 }
