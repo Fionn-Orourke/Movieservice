@@ -8,7 +8,7 @@ public class Movie {
         return title;
     }
 
-    public String getDirector() {
+    public String  getDirector() {
         return director;
     }
 }
