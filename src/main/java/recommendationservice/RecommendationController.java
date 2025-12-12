@@ -1,5 +1,3 @@
-package recomondationservice;
-
 package recommendationservice;
 
 import org.springframework.web.bind.annotation.GetMapping;
